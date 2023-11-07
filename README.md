@@ -4,7 +4,7 @@ This repository contains the ibynb file and link to the data for a research proj
 
 ## Dataset
 
-The dataset used in this project consists of more than 4000 pictures of individual pelicans, focusing on their beaks and horns. We labeled around 150 individual pelicans and used YOLO to iteratively train a model for precise detection of first the pelican , followed by the beak and finally the horn. We then extracted all the necessary data from the detected pelicans and calculated the area ratio between beaks and horns for every picture. For the data from March to November, we calculated the average of these ratios for each day.
+The dataset used in this project consists of more than 4000 pictures of individual pelicans taken in the Gunnision Islands , provided by the Great Salt Lake Institute (GSLI) for research purposes. We labeled around 150 individual pelicans and used YOLO to iteratively train a model for precise detection of first the pelican , followed by the beak and finally the horn. We then extracted all the necessary data from the detected pelicans and calculated the area ratio between beaks and horns for every picture. For the data from March to November, we calculated the average of these ratios for each day.
 
 ## Results
 
