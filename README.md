@@ -1,10 +1,10 @@
 # Measuring Pelican Horn Sizes using Image Detection: Insights into Seasonal Dynamics of Pelican Horn Growth
 
-This repository contains code and data for a research project on measuring pelican horn sizes using image detection. The project aims to shed light on the dynamic patterns of pelican horn growth during their critical breeding season.
+This repository contains the ibynb file and link to the data for a research project on measuring pelican horn sizes using image detection. The project aims to shed light on the dynamic patterns of pelican horn growth during their critical breeding season using deep learning techniques.
 
 ## Dataset
 
-The dataset used in this project consists of more than 4000 pictures of individual pelicans, focusing on their beaks and horns. We labeled around 150 individual pelicans and used YOLO to train a model for precise image detection. We then extracted all the necessary data from the detected pelicans and calculated the area ratio between beaks and horns for every picture. For the data from March to November, we calculated the average of these ratios for each day.
+The dataset used in this project consists of more than 4000 pictures of individual pelicans, focusing on their beaks and horns. We labeled around 150 individual pelicans and used YOLO to iteratively train a model for precise detection of first the pelican , followed by the beak and finally the horn. We then extracted all the necessary data from the detected pelicans and calculated the area ratio between beaks and horns for every picture. For the data from March to November, we calculated the average of these ratios for each day.
 
 ## Results
 
